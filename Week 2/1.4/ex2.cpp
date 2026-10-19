@@ -1,0 +1,14 @@
+#include <iostream>
+int main(){
+    double n1,n2,sum;
+
+    std::cout << "Please enter your first number" << std::endl;
+    std::cin >> n1;
+
+    std::cout << "Please enter your second number" << std::endl;
+    std::cin >> n2;
+
+    sum = n1 * n2;
+    
+    std::cout << n1 << " x " << n2 << " = " <<  sum << std::endl;
+}
